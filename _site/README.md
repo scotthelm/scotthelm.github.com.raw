@@ -1,4 +1,0 @@
-scotthelm
-=========
-
-my public website
