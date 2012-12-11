@@ -7,16 +7,6 @@ title: "Scott Helm: Actor, Engineer, Lifelong Learner"
   <p>Adventures of a lifelong learner</p>
 </div>
 <div class="row-fluid">
-  <div class="span3 well">
-    <h2 style="margin-top: -8px">Posts</h2>
-    {% for post in site.posts %}
-    <ul>
-      <li>
-        <a href="{{ post.url }}">{{post.title}}</a>
-      </li>
-    </ul>
-    {% endfor %}
-  </div>
   <div class="span3">
     <h2>Theatrical</h2>
     <p>
@@ -54,5 +44,15 @@ title: "Scott Helm: Actor, Engineer, Lifelong Learner"
     <p>
       <a href="http://soundcloud.com/plasticide">on my Soundcloud</a>
     </p>
+  </div>
+  <div class="span3 well">
+    <h2 style="margin-top: -8px">Posts</h2>
+    {% for post in site.posts %}
+    <ul>
+      <li>
+        <a href="{{ post.url }}">{{post.title}}</a>
+      </li>
+    </ul>
+    {% endfor %}
   </div>
 </div>
