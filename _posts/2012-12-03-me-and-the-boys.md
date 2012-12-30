@@ -1,9 +1,8 @@
 ---
 layout: base
 title: Me and The Boys
+show_title: true
 ---
-##Me and the boys
-***
 Every now and then, I'm able to get the boys together with me long enough to
 take a picture. Their reaction to the countdown in the Photobooth app is 
 always unpredictable.

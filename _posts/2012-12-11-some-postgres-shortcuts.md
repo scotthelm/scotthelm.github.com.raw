@@ -1,11 +1,8 @@
 ---
 layout: base
 title: "Some Postgres Shortcuts"
+show_title: true
 ---
-
-##Postgres
-***
-
 ###Command Line
 ```
 pg_dump <database_name> -s -O -h <host> -U <username> -W -f <path_to_target_file> -n <schema_name> -n <schema_name>
