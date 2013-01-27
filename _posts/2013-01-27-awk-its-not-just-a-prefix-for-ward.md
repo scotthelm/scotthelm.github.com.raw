@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Awk - It's not just a prefix for "ward"
-show_layout: true
+show_title: true
 ---
 It's kind of a joke around where I work. I saw a data import script my boss had
 written that used `awk` to preprocess massive data files, separating them into
