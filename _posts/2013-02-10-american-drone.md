@@ -22,5 +22,5 @@ In the wake of Sandy Hook, our president speaks of wanting to protect the childr
 An admiral goal. Would that he meant not only the children here, but the ones
 we are killing in the name of our "national interest" abroad.
 
-The American Dream abroad is quickly becoming the American Drone.
+The American Dream abroad and at home is quickly becoming the American Drone.
 
