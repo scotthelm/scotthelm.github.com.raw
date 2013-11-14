@@ -3,8 +3,8 @@ layout: base
 title: "Scott Helm: Actor, Engineer, Lifelong Learner"
 show_title: false
 ---
-<div class="hero-unit">
-  <h2>Actor, Engineer, Musician</h2>
+<div class="hero-unit hero-content">
+  <h2>Engineer, Actor, Musician</h2>
   <p>Adventures of a lifelong learner</p>
 </div>
 <div class="row-fluid">
@@ -46,7 +46,7 @@ show_title: false
   <div class="span4 well">
     <h2 style="margin-top: -8px">Posts</h2>
     {% for post in site.posts %}
-    <ul>
+    <ul class="plain-list">
       <li>
         <a href="{{ post.url }}">{{post.title}}</a>
       </li>
