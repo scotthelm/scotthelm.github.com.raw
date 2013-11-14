@@ -22,7 +22,7 @@
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/scotthelm">
   </head>
@@ -31,20 +31,35 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="brand" href="/">Scott Helm</a>
+        <div class="row-fluid">
+          <div class="span3">&nbsp;</div>
+          <div class="span6" style="padding-left:10px">
+            <a class="brand" href="/">Scott Helm</a>
+          </div>
+          <div class="span3">&nbsp;</div>
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
-      <h2>{% if page.show_title %} {{ page.title if page.title }} {% endif %}</h2>
-      {% if page.show_title %}<hr/>{% endif %}
-        {{ content }}
-      <hr/>
-
+      <div class="row-fluid">
+        <div class="span3">&nbsp;</div>
+        <div class="span6">
+          <h2>{% if page.show_title %} {{ page.title if page.title }} {% endif %}</h2>
+          {% if page.show_title %}<hr/>{% endif %}
+          {{ content }}
+          <hr/>
+        </div>
+        <div class="span3">&nbsp;</div>
+      </div>
       <footer>
-      <p>&copy; <a href="mailto:helm.scott+scotthelm@gmail.com">Scott Helm</a> 2013</p>
+        <div class="row-fluid">
+          <div class="span3">&nbsp;</div>
+          <div class="span6">
+            <p>&copy; <a href="mailto:helm.scott+scotthelm@gmail.com">Scott Helm</a> 2013</p>
+          </div>
+          <div class="span3">&nbsp;</div>
+        </div>
       </footer>
 
     </div><!--/.fluid-container-->
