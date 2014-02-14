@@ -25,8 +25,8 @@ breathing amalgamation of css and javascript and html and ruby.
 
 It was exhilarating. Designing the system with concurrency in mind, pushing
 anything that would block execution out to a message queue and consuming it with
-(Sidekiq)[http://sidekiq.org]. Ensuring that the proper index and types were
-mapped in (Elasticsearch)[http://elasticsearch.org], and then getting the models
+[Sidekiq](http://sidekiq.org). Ensuring that the proper index and types were
+mapped in [Elasticsearch](http://elasticsearch.org), and then getting the models
 transparently mapped into the index. Making sure there was enough indirection
 built in so the system was flexible and resilient in the face of change.
 Making sure my controllers were secure and light, my data retrieval fast and
@@ -34,7 +34,7 @@ efficient, all fully tested of course. It was intellectually stimulating.
 
 However, there is a toll that late nights and intense focus take on the
 unwary developer. I found myself starting to be short with my children, I
-started to miss (Systema)[http://www.charlotte-systema.com/] classes because
+started to miss [Systema](http://www.charlotte-systema.com/) classes because
 I was working. My relationship with my wife is and has been strong for lo these
 17 years, but it takes tending and care to maintain.
 
