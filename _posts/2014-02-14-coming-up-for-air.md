@@ -39,12 +39,13 @@ I was working. My relationship with my wife is and has been strong for lo these
 17 years, but it takes tending and care to maintain.
 
 In short, I was Ed Harris, and I had put on the liquid oxygen suit and had made
-the deep dive. I cut the right wire. Now what.
+the deep dive. I cut the right wire. Now what?
 
-## The Solution Again
-So heroic effort is not the answer. It's not sustainable. It comes at the cost
-of relationships and health. So how can we avoid this? Well it turns out that
-it's not that easy.
+## A Better Solution.
+
+Heroic effort is only a good answer if you ignore the cost to the hero. Otherwise, it's not sustainable.
+Sooner or later, you're going to run out of heroes. Prime developer talent is rare, so burning through it is
+not an option. But avoiding heroic effort isn't that easy. 
 
 The sales pressures on software development are real. To developers they seem
 capricious or arbitrary. But there they are. And they often stem from a real
@@ -57,4 +58,8 @@ all on the same page, communicating true costs and timelines to each other so
 they can reach the best comprimise, and set the customer's expectations properly.
 
 That puts the whole team on the submarine, working together to get to the surface.
-And that's a much nicer place to be than the bottom of the abyss.
+It makes for a stronger, smarter team. One that learns to pull together in a crisis. One
+that is less likely to write checks they can't cash. 
+
+And, for the developer/development team, at least, it's a much nicer place to be than alone
+at the bottom of the abyss.
