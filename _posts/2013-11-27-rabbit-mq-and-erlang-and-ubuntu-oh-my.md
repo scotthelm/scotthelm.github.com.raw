@@ -125,8 +125,15 @@ download rabbitmq-server debian package from [here](http://www.rabbitmq.com/inst
 but DO NOT run it yet.
 
 add this line to your `/etc/apt/sources.list`
+(I updated the link below based on an update from Mark J Williams)
 
-    deb http://packages.erlang-solutions.com/debian precise contrib
+    deb http://packages.erlang-solutions.com/ubuntu precise contrib
+
+
+Next, you may need to add the Erlang Solutions public key for apt-secure
+
+    wget http://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc
+    sudo apt-key add erlang_solutions.asc
 
 then
 
