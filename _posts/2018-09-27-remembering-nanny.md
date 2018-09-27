@@ -9,7 +9,7 @@ My dad and mom had split up, and my mom had remarried. My dad was looking to mar
 
 I do remember long summers hanging around the Davis' immaculate house, playing with Jim, learning about Dungeons & Dragons, and generally having a good time. I remember Christmases, birthdays, Thanksgivings, trips to Ohio and Florida, all kinds of good memories.
 
-Through it all, Betty was there. She had this calming effect on everything and everyone around her. She was one of the kindest, most open, loving people I have ever known.
+Through it all, Betty was there. She had this calming effect on everything and everyone around her. She was one of the kindest, most open, loving people I have ever known. She made me feel like one of her own, a real part of the family.
 
 After her husband Don died, she grieved. As did we all. He was one of the good ones.
 
