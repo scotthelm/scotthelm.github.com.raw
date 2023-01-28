@@ -2,6 +2,7 @@
 title: "Remembering Nanny"
 layout: base
 show_title: true
+tags: personal
 ---
 I don't remember the first time I met Betty Davis. I was young, probably 9 or so? I didn't really realize at the time how incredibly lucky I was.
 

@@ -2,6 +2,7 @@
 layout: base
 title: Clojure Is Bending My Brain
 show_title: true
+tags: tech clojure
 ---
 
 My first foray into the world of functional programming is going to be

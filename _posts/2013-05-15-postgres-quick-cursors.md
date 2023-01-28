@@ -2,6 +2,7 @@
 layout: base
 title: Postgres quick cursors
 show_title: true
+tags: tech database postgres
 ---
 
 I needed to act on individual members of a set. I also didn't want to write a 

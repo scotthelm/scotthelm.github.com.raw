@@ -2,6 +2,7 @@
 layout: base
 title: RabbitMQ and Erlang and Ubuntu (12.04) Oh My!
 show_title: true
+tags: tech erlang
 ---
 
 As part of an upcoming development effort for a new client, I am looking at

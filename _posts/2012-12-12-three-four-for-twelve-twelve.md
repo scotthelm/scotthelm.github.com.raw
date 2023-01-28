@@ -2,6 +2,7 @@
 layout: base
 title: Three Four for Twelve Twelve
 show_title: true
+tags: personal music
 ---
 It being 12/12/12, I was put in mind of 3/4 time, of course.  
 

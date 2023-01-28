@@ -2,6 +2,7 @@
 layout: base
 title: Command Line JSON with JQ
 show_title: true
+tags: tech tools jq
 ---
 
 I started my first foray in to bash scripting. I have client information stored

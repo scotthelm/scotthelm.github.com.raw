@@ -2,6 +2,7 @@
 layout: base
 title: Awk - It's not just a prefix for "ward"
 show_title: true
+tags: tech tools awk
 ---
 It's kind of a joke around where I work. I saw a data import script my boss had
 written that used `awk` to preprocess massive data files, separating them into

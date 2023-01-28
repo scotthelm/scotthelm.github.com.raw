@@ -2,6 +2,7 @@
 title: "Remembering Dean Whitworth"
 layout: base
 show_title: true
+tags: personal
 ---
 I first met Dean in February of 1993. Claire and I drove her 72 Beetle into the mountains, passing over a bridge that looked like you would just crash into the cliff at the end of it. We kept driving around the mountain and up the hill, where I met Tyler, his dog, for the first time.
 

@@ -2,6 +2,7 @@
 layout:     base
 title:      Die Cast Drifting
 show_title: true
+tags: personal fun
 ---
 
 My brother and I invented a game years ago at our Grandmother's house. We cleared

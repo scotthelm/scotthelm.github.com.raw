@@ -2,6 +2,7 @@
 title: "American Drone"
 layout: base
 show_title: true
+tags: personal politics
 ---
 We are using the same drone technology we use in Afghanistan here in the U.S.
 

@@ -2,6 +2,7 @@
 layout: base
 title: Postgres to CSV
 show_title: true
+tags: tech database postgres
 ---
 Here lately, I have had to produce several reports from psql. If you're anything
 like me, Then you're all about automating automatable things. And you're also

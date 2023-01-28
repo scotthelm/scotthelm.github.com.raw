@@ -2,6 +2,7 @@
 layout: base
 title: Plans For the New Year
 show_title: true
+tags: personal
 ---
 I made some major changes over the last year.
 

@@ -2,6 +2,7 @@
 title: "New Rails App With Docker"
 layout: base
 show_title: true
+tags: tech tools docker
 ---
 There are a ton of posts out there on this topic. The purpose of this post is
 to show the step-by-step creation of a new dockerized rails application, hooked

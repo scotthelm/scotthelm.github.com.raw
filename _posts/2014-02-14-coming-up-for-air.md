@@ -2,6 +2,7 @@
 layout: base
 title: Coming Up For Air
 show_title: true
+tags: personal
 ---
 I have spent the last 7 weeks underwater. Rather than exploring the depths of
 some ocean floor, I was plumbing the depths of my knowledge and character.

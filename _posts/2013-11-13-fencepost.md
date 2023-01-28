@@ -2,6 +2,7 @@
 layout: base
 title: "Fencepost"
 show_title: true
+tags: tech ruby
 ---
 
 When it comes to writing and maintianing software, I'm lazy.

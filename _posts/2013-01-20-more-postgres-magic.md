@@ -2,6 +2,7 @@
 layout: base
 title: More Postgres Magic
 show_title: true
+tags: tech database postgres
 ---
 [REASSIGN OWNED BY old_role new_role] (http://www.postgresql.org/docs/9.0/static/sql-reassign-owned.html)
 

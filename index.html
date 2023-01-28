@@ -121,17 +121,11 @@ page_title: Scott Helm Dot Com
           <div class="span4 well">
             <h2>Technical</h2>
             <p>Industry professional since 1998</p>
-            <p>.net Enterprise Architect</p>
-            <p>Ruby and Ruby on Rails professional</p>
-            <p><a href="https://github.com/scotthelm/fencepost">my latest gem, Fencepost</a></p>
+            <p>Systems Architect</p>
+            <p><a href="https://gist.github.com/scotthelm/f194535fcaf1759c24fa17e74cb224ec">My Resume</a></p>
             <p>
-              <a href="https://github.com/scotthelm">my github page</a>
+              <a href="https://github.com/scotthelm">My github page</a>
             </p>
-            <p>
-              And some open source .net
-            </p>
-            <p><a href="http://entityfilter.codeplex.com">Entity Filter</a></p>
-            <p><a href="http://efgenrepo.codeplex.com">Entity Framework Generic Repository</a></p>
           </div>
 
           <div class="span4 well">
@@ -141,15 +135,14 @@ page_title: Scott Helm Dot Com
             Association.  Hundreds of commercial voiceovers.
             </p>
             <p>
-            <a href="http://s3.amazonaws.com/ScottHelm/demo/Scott%20Helm%20Commercial%20Demo%202011.mp3">Here's my voiceover demo</a>
+            <a href="http://s3.amazonaws.com/ScottHelm/demo/Scott%20Helm%20Commercial%20Demo%202011.mp3">My voiceover demo</a>
             </p>
           </div>
           <div class="span4 well">
             <h2>Musical</h2>
-            <p>Playing guitar not very well for over 25 years, I started applying my
-            computer skills to my music making. The results can be found
-            <p>
-              <a href="http://soundcloud.com/plasticide">on my Soundcloud</a>
+            <p>Playing music on multiple instruments for... a long time, I started recording it. The results can be found on</p>
+            <p> 
+              <a href="http://soundcloud.com/plasticide"> MySoundcloud</a>
             </p>
           </div>
         </div>
@@ -160,21 +153,20 @@ page_title: Scott Helm Dot Com
         <div class="row-fluid">
           <div class="span8">
             <h2>Posts</h2>
-            {% for post in site.posts %}
             <ul class="plain-list">
+            <li><a href="/all_posts">All Posts</a></li>
+            <li>&nbsp;</li>
+            {% for post in site.posts limit: 10 %}
               <li>
                 <a href="{{ post.url }}">{{post.title}}</a>
               </li>
-            </ul>
             {% endfor %}
+            </ul>
           </div>
           <div class="span4">
             <h2>Contact</h2>
-            <p>&copy; <a href="mailto:helm.scott+scotthelm@gmail.com">Scott Helm</a> 2016</p>
-            <p>
-              <a href="https://twitter.com/scott_helm" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @scott_helm</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </p>
+            <p>&copy; Scott Helm {{site.time | date: "%Y"}}</p>
+            <p><a href="/rss.rss" style="border 0"><img src="/img/rss.png" alt="rss"/></a></p>
           </div>
         </div>
       </div>
