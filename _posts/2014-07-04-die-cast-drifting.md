@@ -1,6 +1,6 @@
 ---
-layout:     base
-title:      Die Cast Drifting
+layout: post
+title: Die Cast Drifting
 show_title: true
 tags: personal fun
 ---

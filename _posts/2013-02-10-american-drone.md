@@ -1,6 +1,6 @@
 ---
 title: "American Drone"
-layout: base
+layout: post
 show_title: true
 tags: personal politics
 ---

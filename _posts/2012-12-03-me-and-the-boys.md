@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Me and The Boys
 show_title: true
 tags: personal

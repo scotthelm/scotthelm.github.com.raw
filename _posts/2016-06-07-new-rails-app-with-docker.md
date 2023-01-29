@@ -1,6 +1,6 @@
 ---
 title: "New Rails App With Docker"
-layout: base
+layout: post
 show_title: true
 tags: tech tools docker
 ---

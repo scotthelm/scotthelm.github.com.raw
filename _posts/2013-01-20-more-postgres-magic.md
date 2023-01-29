@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: More Postgres Magic
 show_title: true
 tags: tech database postgres

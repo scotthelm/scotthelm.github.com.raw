@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Postgres to CSV
 show_title: true
 tags: tech database postgres

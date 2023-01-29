@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Plans For the New Year
 show_title: true
 tags: personal

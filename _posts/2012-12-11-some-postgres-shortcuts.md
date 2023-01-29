@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Some Postgres Shortcuts"
 show_title: true
 tags: tech database postgres

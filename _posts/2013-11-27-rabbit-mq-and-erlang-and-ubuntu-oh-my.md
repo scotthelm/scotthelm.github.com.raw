@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: RabbitMQ and Erlang and Ubuntu (12.04) Oh My!
 show_title: true
 tags: tech erlang

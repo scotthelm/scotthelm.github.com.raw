@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Three Four for Twelve Twelve
 show_title: true
 tags: personal music

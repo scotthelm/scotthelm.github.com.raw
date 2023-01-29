@@ -1,6 +1,6 @@
 ---
 title: "Remembering Nanny"
-layout: base
+layout: post
 show_title: true
 tags: personal
 ---

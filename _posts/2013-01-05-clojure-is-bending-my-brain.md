@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Clojure Is Bending My Brain
 show_title: true
 tags: tech clojure

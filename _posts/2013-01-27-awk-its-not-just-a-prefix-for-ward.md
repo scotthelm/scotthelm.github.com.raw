@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Awk - It's not just a prefix for "ward"
 show_title: true
 tags: tech tools awk

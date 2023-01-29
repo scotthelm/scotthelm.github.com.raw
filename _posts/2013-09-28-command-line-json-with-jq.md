@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Command Line JSON with JQ
 show_title: true
 tags: tech tools jq

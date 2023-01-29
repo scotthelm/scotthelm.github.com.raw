@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Fencepost"
 show_title: true
 tags: tech ruby

@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Postgres quick cursors
 show_title: true
 tags: tech database postgres

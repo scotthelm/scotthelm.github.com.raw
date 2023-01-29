@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Coming Up For Air
 show_title: true
 tags: personal

@@ -1,0 +1,90 @@
+---
+layout: default
+
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      <h2>Technical</h2>
+      <p>Industry professional since 1998</p>
+      <p>Systems Architect</p>
+      <p><a href="https://gist.github.com/scotthelm/f194535fcaf1759c24fa17e74cb224ec">My Resume</a></p>
+      <p>
+        <a href="https://github.com/scotthelm">My github page</a>
+      </p>
+    </div>
+    <div class="footer-col">
+      <h2>Acting</h2>
+      <p>
+      Experience in over thirty professional plays. A member of Actor's Equity
+      Association.  Hundreds of commercial voiceovers.
+      </p>
+      <p>
+      <a href="http://s3.amazonaws.com/ScottHelm/demo/Scott%20Helm%20Commercial%20Demo%202011.mp3">My voiceover demo</a>
+      </p>
+    </div>
+    <div class="footer-col">
+      <h2>Music</h2>
+      <p>Playing music on multiple instruments for... a long time, I started recording it. The results can be found on</p>
+      <p> 
+        <a href="http://soundcloud.com/plasticide"> My Soundcloud</a>
+      </p>
+    </div>
+  </div>
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+
+    <hr/>
+    <h2>Most Recent Post</h2>
+
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts limit: 1 -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>

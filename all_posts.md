@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: All Posts
 show_title: true
 ---
