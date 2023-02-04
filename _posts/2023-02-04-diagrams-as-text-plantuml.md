@@ -2,7 +2,7 @@
 layout: post
 title: "Diagrams As Text - Plantuml"
 show_title: true
-tags: personal
+tags: tech tools plantuml
 comments: true
 ---
 
