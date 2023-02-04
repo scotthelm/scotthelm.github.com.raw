@@ -38,29 +38,32 @@ Some reasons you might try creating images with text:
 
 Sequences allow us to answer the quetion: "How do different parts of a process collaborate together?". Plantuml makes the creation of these types of diagrams quick and easy. We can quickly see which participants are involved in a process and what messages they send to each other to accomplish a task.
 
-![sequence diagram example](//www.plantuml.com/plantuml/png/RL9DRzGm4BtxLpnoAArGGzdoVK1THGKX3bHRvS09MSwKMFNQnfwq4h-USR89MTHRudaVxurzbLad7lPEFUEUzWH3QN2a_NaOs5bFYYqxGlLzEt2_mSstvXhb4vzTUAoKDXmIMkYCgisKAXL5pneRjMSqutdZB7a-dcnlnr5H2id-qMo3nosbX_ybTXDmHpaCoT01WzCVyejjZ6ULKYtEFudNHtnzti7PUm87P29en1IO35E7T51GpOn-LUCBUKgQQUfbGaSGTNjdAU44fjVEaVyrSIIpa3OrZaCtXPJezq2PyMBK-BaGIv2N-e0d9GgYquhCPOtBYutmEfiaNy4L67afFkbAydrarIxEhyNv678YvZxBWGZFfTuycK_M5mMwBlAsbbtw3dgD7kFFBPPDb18SxicBpy9_L-FwGRj1C-L_wribUIz9ZA6SCN9ngiKjn6AZ7HBT9ShzD3kRSksAxeSQkyCs7ottq2iD9OZvyYxgLQjvhJVBTSyFHbr9INdVVm40)
+![sequence diagram example](//www.plantuml.com/plantuml/png/VP31RW8X48Rl-nJJlVi2FJIIJNiptLHUWB1_bSeE1cPhVFiYHCKcxNNuvkE3TH8JPPbzzoHxp22Bk7WONeL5l6DquiI3-YtWU4UADk7ReU-CbH1f99Ee7ut4m7rtp2fdtT6ma5RbI3jxW93QWUKH62em1BP8oGKc9GAUp6zGwzQapG7n4TXKe8IHtYFNvC1kfDLB3docBJoirF0wrIgFt-E4I5Ardo5IAXmccWkfrLMWqg40HtEUmT8uHdFE9pVBoScUh8bJNhupqR5GpK-DzGEoH2uu6Pv8Ab7jmxtGtdueTSF_JKFJrEurOSLGmJVdFONB7NdwLrLxUtstBcz20ikjEGzNrp3lmucClMpLZSrbuvK5iHZ1N-5CzO_Nu6cP_Gy0)
 
 ```plantuml
 @startuml
 !theme cerulean-outline
-title "OAuth2 PKCE Auth Flow"
-actor U as "User"
-participant C as "Client"
-participant AS as "Authorization Server"
-participant RS as "Resource Server (Your App)"
+title "Seeing A Movie"
+actor P as "Patron"
+participant TA as "Ticket Agent"
+participant CA as "Concession Attendant"
+participant TT as "Ticket Taker"
+participant MT as "Movie Theatre"
 
-U -> C : I'd like to see a protected resource
-C -> C : 1. Generate PKCE code verifier & challenge
-C -> AS : 2. Authorization Code request + code_challenge to /authorize
-AS -> U : 3. 302 redirect to authentication prompt
-U -> AS : 4. Authentication & Consent
-AS -> C : 5. Authorization Code Response
-C -> AS : 6. Send authorization code + code_verifier to /token
-AS -> AS : 7. Evaluates PKCE code
-AS -> C : 8. Access token (and optional refresh token)
-C -> RS : 9. Request with access token
-RS -> C : 10. Response
-C -> U : Protected Resource
+P -> P : Select Movie
+P -> TA : Order ticket for selected movie
+TA -> P : Ask for payment
+P -> TA : Pay for ticket with card
+TA -> TA : Print Tickets
+TA -> P : Return card and tickets
+P -> CA : Order concessions
+CA -> P : Ask for payment
+P -> CA : Pay for concessions with card
+CA -> CA : Fill order
+CA -> P : Return card and concessions
+P -> TT : Present tickets
+TT --> P : Allow access
+P -> MT : Enter and enjoy movie
 @enduml
 ```
 
@@ -91,7 +94,8 @@ endif
 :turn on toaster;
 while(while bread is not toasted)
     :wait;
-endwhile
+endwhile (done)
+:bread is toasted;
 :remove bread;
 :place peanut butter on bread;
 if(jelly was chosen?) then (yes)
@@ -107,7 +111,7 @@ end
 </pre>
 </td>
 <td>
-<img src="//www.plantuml.com/plantuml/png/RKz1SeGm3Bld5JgoNu13zzfdP8bPiWqsapXb-7qzG6QwdLuoZYLPqhseprgNv8x1zKzIF3BvW2dBWjMpvdquzojvhWPNLShlU9ow8FZ4Pd-yAAKTAl9nWyx4w7OgDmVObGizrGRQ4CEJ1aUf43gMcoCESNBzcln8LvR8KF75R2sArioGNvjjZecwusty0XQz6C6iOUQRZse-70wcwpCjydqfXkRttb6umLRm3BxvWd6MGlot7N3TE8bD-q-redxyCd6BkqMT4VAE4WELiziApm4FKPN5qet9Wg6kDXA_P3-AkBizTKa_" alt="activity diagram"/>
+<img src="//www.plantuml.com/plantuml/png/RKz1RiCm3Blx5JmcNsWFwtNFS6ErSUT8WIqloEydn36m3hiOiaYAvAseprgNv8x1NPwak6Vo0Oyi2rRFclThsw_akHfSLIc_u_4n1C4dDllZHIdjK96F4JeJOzYfZ0wmAoVQr0RQ4CEJhevI8GmieoCEyU4kQ_8JdLaYGyKNixKeMZD3VcssEIOQZhVp2rZqP0IpXfblFghvS6XC2ymqkajNTBOvP5ha-xnrxKdUsmjtsAgtIfilc6Ofn7zx0-UDHkpQVqeNzTENYNkHBUgCa7UK6AYqrYiy1zn5LHPBDoKBXhhQIFoI_QZeRlRK9Vq0" alt="activity diagram"/>
 </td>
 </tr>
 </table>
