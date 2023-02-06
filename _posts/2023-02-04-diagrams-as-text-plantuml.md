@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diagrams As Text - Plantuml"
+title: "Diagrams As Text - PlantUML"
 show_title: true
 tags: tech tools plantuml
 comments: true
@@ -8,7 +8,7 @@ comments: true
 
 Diagrams are a way of communicating an idea, or answering questions visually. 
 
-[Plantuml](https://plantuml.com) is a free and open-source way of creating these diagrams using text.
+[PlantUML](https://plantuml.com) is a free and open-source way of creating these diagrams using text.
 
 ## Why Would I Want To Do That?
 
@@ -21,11 +21,11 @@ Diagrams help communicate an idea very quickly. Some ideas or questions you can 
 Some reasons you might try creating images with text:
 
 * Trying to line up boxes and arrows - especially when there are a lot of them - is terrible - and time consuming!
-  * Plantuml to the rescue!
+  * PlantUML to the rescue!
 * Trying to keep up in a meeting is tough
   * I find that I can type much faster than I can drag things around
 * Being able to regenerate your diagram after making changes is simple
-  * With vscode, the plantuml plugin, and a plantuml server, the diagrams appear as you type
+  * With vscode, the PlantUML plugin, and a PlantUML server, the diagrams appear as you type
   * Bonus: it makes you look like a wizard.
 * Your diagrams can be a part of your source code - very friendly to modern version control systems
   * This helps us keep our diagrams fresh and alive - actual artifacts, not relics.
@@ -36,7 +36,7 @@ Some reasons you might try creating images with text:
 
 ### Sequence Diagrams
 
-Sequences allow us to answer the quetion: "How do different parts of a process collaborate together?". Plantuml makes the creation of these types of diagrams quick and easy. We can quickly see which participants are involved in a process and what messages they send to each other to accomplish a task.
+Sequences allow us to answer the quetion: "How do different parts of a process collaborate together?". PlantUML makes the creation of these types of diagrams quick and easy. We can quickly see which participants are involved in a process and what messages they send to each other to accomplish a task.
 
 ![sequence diagram example](//www.plantuml.com/plantuml/png/VP31RW8X48Rl-nJJlVi2FJIIJNiptLHUWB1_bSeE1cPhVFiYHCKcxNNuvkE3TH8JPPbzzoHxp22Bk7WONeL5l6DquiI3-YtWU4UADk7ReU-CbH1f99Ee7ut4m7rtp2fdtT6ma5RbI3jxW93QWUKH62em1BP8oGKc9GAUp6zGwzQapG7n4TXKe8IHtYFNvC1kfDLB3docBJoirF0wrIgFt-E4I5Ardo5IAXmccWkfrLMWqg40HtEUmT8uHdFE9pVBoScUh8bJNhupqR5GpK-DzGEoH2uu6Pv8Ab7jmxtGtdueTSF_JKFJrEurOSLGmJVdFONB7NdwLrLxUtstBcz20ikjEGzNrp3lmucClMpLZSrbuvK5iHZ1N-5CzO_Nu6cP_Gy0)
 
@@ -119,7 +119,7 @@ end
 
 ### Mind Maps
 
-Plantuml also supports useful diagrams other than UML. Mind maps are a great way to visualize and organize ideas around a central theme in an ordered, tree-like way
+PlantUML also supports useful diagrams other than UML. Mind maps are a great way to visualize and organize ideas around a central theme in an ordered, tree-like way
 
 ![mind map example](//www.plantuml.com/plantuml/png/PP1DRWCX38NtdC9AbsZka0jKwhwg8i_mGb7vcM1JjRUlCqNj8Wi4d_diXpYBSjUIQYYyEqsQGQTdGp8-EUTVdtAAxxhcWJTwoLnrbEoy9_tU8TIk51B7paMiw4bm6wWRxk0l53jOwTew5OXmnBAo8D3UssO5_3QLcVVGj7PELRHrC-AXQclPpjFybAq5JC2NeafgLTooq13Sz-L2jv6sZxzNKgfK0BKXyxvOXjhYDUDVOw5ZzXarpE_v0G00)
 
@@ -144,11 +144,13 @@ title "Mind map"
 
 ## In Summary
 
-[Plantuml](https://plantuml.com) is a free, open source method of creating diagrams with text. It's fast, efficient, easily versionable, and fun to use! It supports many more types of diagrams than I have outlined here - including [C4 diagrams](//https:github.com/plantuml-stdlib/C4-PlantUML)- each with an easy-to-use syntax that is human readable and intuitive to use.
+[PlantUML](https://plantuml.com) is a free, open source method of creating diagrams with text. It's fast, efficient, easily versionable, and fun to use! It supports many more types of diagrams than I have outlined here - including [C4 diagrams](//https:github.com/plantuml-stdlib/C4-PlantUML)- each with an easy-to-use syntax that is human readable and intuitive to use.
 
-You can get started generating diagrams [using the plantuml public server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000). In fact all of the images in this post are using that server to render the plantuml that you see! (Check the img tags in the source of this page)
+You can get started generating diagrams [using the PlantUML public server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000). In fact all of the images in this post are using that server to render the plantuml that you see! (Check the img tags in the source of this page)
 
-Next, we'll explore creating a setup using vscode and docker that allows you to generate diagrams as fast as you can type, and even embed them in your markdown documents!
+[Next, we'll explore creating a setup using VSCode and Docker]({% post_url 2023-02-05-plantuml-diagrams-with-vs-code %}) that allows you to generate diagrams as fast as you can type, and even embed them in your markdown documents!
 
 Thanks!
+
+
 
